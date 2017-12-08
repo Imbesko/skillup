@@ -1,0 +1,269 @@
+@import "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import "settings";
+@import "font";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* section HEAD */
+header {
+  .logo-header {
+    padding: 20px 0 13px 0;
+  }
+  .menu-holder {
+    a {
+      display: inline-block;
+      padding: 45px 0 42px 15px;
+      color: #000000;
+      font-size: 14px;
+      &:hover {
+        color: $color-orange;
+      }
+    }
+  }
+}
+
+/* section BANNER */
+.banner {
+  position: relative;
+  background: url(../images/jpg/banner.jpg) no-repeat center;
+  background-size: cover;
+  color: $color-white;
+}
+/* section industrial inside BANNER*/
+.industrial {
+  background-color: #02B6E7;
+  margin-top: 170px;
+}
+.industrial-head {
+  background-color: #ffac56;
+  font-size: 24px;
+  padding: 20px 15px !important;
+}
+.box {
+  color: $color-white;
+  border: 1px solid #00a6da;
+  float: left;
+  padding: 18px 40px 30px 40px !important;
+  &:hover {
+    background-color: #00a6da;
+  }
+}
+.industrial-img {
+  padding-bottom: 7px;
+  height: 55px;
+}
+.arrow {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.industrial-footer {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+.banner-phone {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: $color-green;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+.banner-call {
+  padding-top: 20px;
+  text-align: center;
+  font-family: $family-Roboto;
+}
+
+/* section ABOUT US */
+.content-about-us {
+  text-align: right;
+  padding: 96px 0;
+  p {
+    font-size: 16px;
+  }
+  .read-more {
+    background-color: $color-green;
+    color: $color-white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+    margin-right: -15px;
+  }
+;
+}
+
+.handshake {
+  padding-top: 96px;
+  .medal {
+    background-color: $color-blue;
+    border: 5px solid white;
+    margin: -90px 0 0 100px;
+    position: absolute;
+    text-align: center;
+    color: $color-white;
+    .medal-box {
+      border: 1px solid $color-blue;
+      margin: 18px 12px;
+      overflow: hidden;
+      .medal-img {
+        margin-top: -21px;
+      }
+      h1 {
+        margin: 12% 0 0 0;
+        font-size: 75px;
+      }
+      .excellence {
+        line-height: 0;
+        font-size: 10px;
+        color: $color-white;
+      }
+    }
+
+  }
+
+}
+
+.what-make-us-standout {
+  padding: 95px 0 115px 0;
+  background-color: #E7EFF1;
+  .clock, .local, .expert {
+    margin-top: 30px;
+  }
+  .count-stand-out {
+    color: $color-green;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+  }
+}
+
+/* section TESTIMONIALS */
+.testimonials {
+  background-color: $color-blue;
+
+  color: $color-white;
+  h6 {
+    margin-top: 90px;
+    color: $color-white;
+  }
+  h2 {
+    margin-bottom: 60px;
+  }
+  p {
+    color: $color-white;
+    margin-bottom: 45px;
+  }
+  .sl-img {
+    border-radius: 50%;
+    margin: 15px 0 0 -15px;
+  }
+  .sl-img:hover {
+    width: 80px;
+    height: 80px;
+  }
+  .sl-h {
+    margin: 10px auto;
+    font-weight: bold;
+  }
+  .sl-descr {
+    font-family: 'Domine', sans-serif;
+    font-size: 15px;
+  }
+  .sl-text {
+    margin-top: 25px;
+  }
+  /* slider */
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+  .slick-dots {
+    text-align: right;
+    bottom: 55px;
+    padding-right: 10px;
+  }
+  .slick-dots li button {
+    border: 3px solid $color-white;
+    border-radius: 50%;
+  }
+  .slick-dots li button:before {
+    opacity: 0;
+  }
+  .slick-dots li.slick-active button {
+    border: 3px solid $color-green;
+  }
+  .slick-dots li.slick-active button:before {
+    color: $color-green;
+  }
+  .slick-dots li button:hover:before {
+    color: $color-green;
+  }
+  .review-submission {
+    background-color: $color-green;
+    font-size: 13px;
+    color: $color-white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+    margin: 20px 0 45px 0;
+    text-decoration: none;
+  }
+}
+
+/* section OUR BLOG */
+.our-blog {
+  background-color: #E7EFF1;
+  .caption {
+    padding: 90px 0 0 0;
+  }
+  .posts {
+    border: 2px solid $color-grey;
+    display: inline-block;
+    border-radius: 40px;
+    padding: 7px 20px;
+    font-size: 13px;
+    color: $color-grey;
+    margin-top: 20px;
+  }
+  .posts:hover {
+    border: 2px solid $color-orange;
+  }
+  .row {
+    margin-bottom: 40px;
+  }
+  h5 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 15px;
+  }
+  h4 {
+    font-weight: bold;
+  }
+  p {
+    font-style: italic;
+  }
+}
+
+/* section CONTACT US */
+.contact-us {
+  h6 {
+    margin-top: 90px;
+  }
+  p {
+    font-size: 18px;
+  }
+  h5 {
+    font-weight: bold;
+  }
+  .call-img {
+    height: 72px;
+  }
+  .call {
+    width: 100%;
+    margin: 30px 0 95px 0;
+    padding: 20px 0 30px 20px;
+    border: 1px solid $color-grey;
+  }
+  .call-info {
+    display: inline-block;
+    padding-left: 10px;
+    //margin-top: 30px;
+  }
+}
+

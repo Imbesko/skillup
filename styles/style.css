@@ -1,0 +1,236 @@
+@import "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import url(https://fonts.googleapis.com/css?family=Domine|Montserrat:300,400,600,700|Roboto:400,500,700);
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a:hover {
+  text-decoration: none; }
+
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #898E8F; }
+
+h2 {
+  font-weight: bold;
+  line-height: 0.5; }
+
+h6 {
+  margin-bottom: -10px;
+  color: #898E8F;
+  font-size: 14px; }
+
+/* section HEAD */
+header .logo-header {
+  padding: 20px 0 13px 0; }
+header .menu-holder a {
+  display: inline-block;
+  padding: 45px 0 42px 15px;
+  color: #000000;
+  font-size: 14px; }
+  header .menu-holder a:hover {
+    color: #FFAC56; }
+
+/* section BANNER */
+.banner {
+  position: relative;
+  background: url(../images/jpg/banner.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff; }
+
+.industrial {
+  background-color: #02B6E7;
+  margin-top: 170px; }
+
+.industrial-head {
+  background-color: #ffac56;
+  font-size: 24px;
+  padding: 20px 15px !important; }
+
+.box {
+  color: #fff;
+  border: 1px solid #00a6da;
+  float: left;
+  padding: 18px 40px 30px 40px !important; }
+  .box:hover {
+    background-color: #00a6da; }
+
+.industrial-img {
+  padding-bottom: 7px;
+  height: 55px; }
+
+.arrow {
+  position: absolute;
+  bottom: 30px;
+  right: 30px; }
+
+.industrial-footer {
+  font-size: 20px;
+  padding: 10px 0 10px 0; }
+
+.banner-phone {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #16D428;
+  border-radius: 30px;
+  padding: 5px 20px; }
+
+.banner-call {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
+
+/* section ABOUT US */
+.content-about-us {
+  text-align: right;
+  padding: 96px 0; }
+  .content-about-us p {
+    font-size: 16px; }
+  .content-about-us .read-more {
+    background-color: #16D428;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+    margin-right: -15px; }
+
+.handshake {
+  padding-top: 96px; }
+  .handshake .medal {
+    background-color: #02B6E7;
+    border: 5px solid white;
+    margin: -90px 0 0 100px;
+    position: absolute;
+    text-align: center;
+    color: #fff; }
+    .handshake .medal .medal-box {
+      border: 1px solid #02B6E7;
+      margin: 18px 12px;
+      overflow: hidden; }
+      .handshake .medal .medal-box .medal-img {
+        margin-top: -21px; }
+      .handshake .medal .medal-box h1 {
+        margin: 12% 0 0 0;
+        font-size: 75px; }
+      .handshake .medal .medal-box .excellence {
+        line-height: 0;
+        font-size: 10px;
+        color: #fff; }
+
+.what-make-us-standout {
+  padding: 95px 0 115px 0;
+  background-color: #E7EFF1; }
+  .what-make-us-standout .clock, .what-make-us-standout .local, .what-make-us-standout .expert {
+    margin-top: 30px; }
+  .what-make-us-standout .count-stand-out {
+    color: #16D428;
+    font-size: 20px;
+    margin: 20px 0 20px 0; }
+
+/* section TESTIMONIALS */
+.testimonials {
+  background-color: #02B6E7;
+  color: #fff;
+  /* slider */ }
+  .testimonials h6 {
+    margin-top: 90px;
+    color: #fff; }
+  .testimonials h2 {
+    margin-bottom: 60px; }
+  .testimonials p {
+    color: #fff;
+    margin-bottom: 45px; }
+  .testimonials .sl-img {
+    border-radius: 50%;
+    margin: 15px 0 0 -15px; }
+  .testimonials .sl-img:hover {
+    width: 80px;
+    height: 80px; }
+  .testimonials .sl-h {
+    margin: 10px auto;
+    font-weight: bold; }
+  .testimonials .sl-descr {
+    font-family: 'Domine', sans-serif;
+    font-size: 15px; }
+  .testimonials .sl-text {
+    margin-top: 25px; }
+  .testimonials .slick-dotted.slick-slider {
+    margin-bottom: 0; }
+  .testimonials .slick-dots {
+    text-align: right;
+    bottom: 55px;
+    padding-right: 10px; }
+  .testimonials .slick-dots li button {
+    border: 3px solid #fff;
+    border-radius: 50%; }
+  .testimonials .slick-dots li button:before {
+    opacity: 0; }
+  .testimonials .slick-dots li.slick-active button {
+    border: 3px solid #16D428; }
+  .testimonials .slick-dots li.slick-active button:before {
+    color: #16D428; }
+  .testimonials .slick-dots li button:hover:before {
+    color: #16D428; }
+  .testimonials .review-submission {
+    background-color: #16D428;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+    margin: 20px 0 45px 0;
+    text-decoration: none; }
+
+/* section OUR BLOG */
+.our-blog {
+  background-color: #E7EFF1; }
+  .our-blog .caption {
+    padding: 90px 0 0 0; }
+  .our-blog .posts {
+    border: 2px solid #989FA0;
+    display: inline-block;
+    border-radius: 40px;
+    padding: 7px 20px;
+    font-size: 13px;
+    color: #989FA0;
+    margin-top: 20px; }
+  .our-blog .posts:hover {
+    border: 2px solid #FFAC56; }
+  .our-blog .row {
+    margin-bottom: 40px; }
+  .our-blog h5 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 15px; }
+  .our-blog h4 {
+    font-weight: bold; }
+  .our-blog p {
+    font-style: italic; }
+
+/* section CONTACT US */
+.contact-us h6 {
+  margin-top: 90px; }
+.contact-us p {
+  font-size: 18px; }
+.contact-us h5 {
+  font-weight: bold; }
+.contact-us .call-img {
+  height: 72px; }
+.contact-us .call {
+  width: 100%;
+  margin: 30px 0 95px 0;
+  padding: 20px 0 30px 20px;
+  border: 1px solid #989FA0; }
+.contact-us .call-info {
+  display: inline-block;
+  padding-left: 10px; }
+
+/*# sourceMappingURL=style.css.map */
