@@ -1,7 +1,6 @@
 @import "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import "settings";
 @import "font";
-@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /* section HEAD */
 header {
@@ -85,12 +84,10 @@ header {
     color: $color-white;
     border-radius: 30px;
     text-align: center;
-    padding: 12px;
+    padding: 15px 20px;
     margin-right: -15px;
   }
-;
 }
-
 .handshake {
   padding-top: 96px;
   .medal {
@@ -122,6 +119,7 @@ header {
 
 }
 
+/* section WHAT MAKE US STAND OUT */
 .what-make-us-standout {
   padding: 95px 0 115px 0;
   background-color: #E7EFF1;
@@ -138,10 +136,9 @@ header {
 /* section TESTIMONIALS */
 .testimonials {
   background-color: $color-blue;
-
   color: $color-white;
+  padding-top: 90px;
   h6 {
-    margin-top: 90px;
     color: $color-white;
   }
   h2 {
@@ -177,7 +174,7 @@ header {
   .slick-dots {
     text-align: right;
     bottom: 55px;
-    padding-right: 10px;
+    left: 290px;
   }
   .slick-dots li button {
     border: 3px solid $color-white;
@@ -201,9 +198,8 @@ header {
     color: $color-white;
     border-radius: 30px;
     text-align: center;
-    padding: 12px;
+    padding: 13px;
     margin: 20px 0 45px 0;
-    text-decoration: none;
   }
 }
 
@@ -251,19 +247,48 @@ header {
   h5 {
     font-weight: bold;
   }
-  .call-img {
-    height: 72px;
-  }
   .call {
-    width: 100%;
-    margin: 30px 0 95px 0;
-    padding: 20px 0 30px 20px;
+    margin: 20px 0 100px 0;
+    padding: 22px 0 100px 15px;
     border: 1px solid $color-grey;
   }
-  .call-info {
-    display: inline-block;
-    padding-left: 10px;
-    //margin-top: 30px;
+}
+
+/* section FOOTER */
+.footer {
+  padding-top: 90px;
+  background-color: #262829;
+  height: 520px;
+  h4 {
+    color: $color-white;
+    font-weight: bold;
   }
+  .footer-options {
+    font-size: 13px;
+  }
+  .subscribe {
+    margin-top: 55px;
+    background-color: #323334;
+    border: 0;
+    height: 50px;
+    padding-left: 35px;
+    font-size: 13px;
+    border-radius: 40px;
+    position: relative;
+  }
+  .subscribe-button {
+    width: 155px;
+    height: 50px;
+    background-color: $color-green;
+    border: 0;
+    border-radius: 40px;
+    color: $color-white;
+    left: 316px;
+    bottom:0;
+    position: absolute;
+  }
+  hr {
+    border-color: #323334;
+    margin-top: 90px;  }
 }
 

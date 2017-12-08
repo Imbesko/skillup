@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "materialize-css": "^0.100.2"
+    "bootstrap-sass": "^3.3.7"
   }
 }
